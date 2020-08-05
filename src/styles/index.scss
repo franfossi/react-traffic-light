@@ -2,6 +2,7 @@
 
 #traffictop {
     background-color: black;
+    border: black solid 1px;
     width: 10px;
     height: 70px;
     margin-left: 82px;
@@ -9,6 +10,7 @@
 
 #container {
     background-color: black;
+    border: black solid 1px;
     width: 56px;
     height: 178px;
     margin-left: 50px;
@@ -23,6 +25,7 @@
     margin: auto;
     padding: 4px;
     border-radius: 50%;
+    border: black solid 1px;
     cursor: pointer;
 &.red {background-color: red;}
 &.yellow {background-color: yellow;}

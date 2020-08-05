@@ -1,15 +1,31 @@
 import React from "react";
+import React, { useState, useEffect } from 'react';
 
-export default class TrafficLight extends React.Component {
-	constructor() {
-		super();
-		this.state = {
-			clickedLight: null
-		};
-	}
+export default class TrafficLightHooks extends React.Component {
+	//constructor() {
+	//	super();
+	//	this.state = {
+	//		clickedLight: null
+	//	};
+    //}
+      //    useEffect(() =>
+        // this will run every time the component re-renders
+     //   if(some_condition){
+            //this will run only if some_condition is true
+    //    }
+    //);// <------ PLEASE NOTICE THE EMPTY ARRAY IS GONE!
+
+ //   return <Some HTML>;
+//}
 
 	render() {
-		console.log(this.state);
+        console.log(this.state);
+        let [ mySuperVariable, mySuperFunction ] = useState( null );
+
+
+
+
+
 		let redGlowClass = "";
 		if (this.state.clickedLight == "red") redGlowClass = "selected";
 		let yellowGlowClass = "";
